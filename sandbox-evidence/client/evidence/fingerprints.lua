@@ -24,7 +24,7 @@ function LeaveFingerprint(location, quality)
     UpdateCachedEvidence()
 end
 
-RegisterNetEvent("Evidence:Client:Fingerprint", function(tooDegraded, success, evidenceId)
+RegisterNetEvent("Evidence:Client:Ranfingerprint", function(tooDegraded, success, evidenceId)
 	Animations.Emotes:Play("type3", false, 5500, true, true)
 	Progress:Progress({
 		name = "finger_test",
