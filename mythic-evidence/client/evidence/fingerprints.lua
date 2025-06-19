@@ -29,7 +29,7 @@ RegisterNetEvent("Evidence:Client:Fingerprint", function(tooDegraded, success, e
 	Progress:Progress({
 		name = "finger_test",
 		duration = 50000,
-		label = "Running Fingerprint Through Database"
+		label = "Running Fingerprint Through Database",
 		useWhileDead = false,
 		canCancel = false,
 		ignoreModifier = true,
