@@ -174,7 +174,7 @@ function RegisterBallisticsItemUses()
 				end
 
 				TriggerClientEvent(
-					"Evidence:Client:fingerprint",
+					"Evidence:Client:Ranfingerprint",
 					source,
 					tooDegraded,
 					success and charData or false,
